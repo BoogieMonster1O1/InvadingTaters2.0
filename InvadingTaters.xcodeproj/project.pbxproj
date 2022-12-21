@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F5929535AAF00767C37 /* AppDelegate.swift */; };
+		64BC9F5C29535AAF00767C37 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F5B29535AAF00767C37 /* GameScene.sks */; };
+		64BC9F5E29535AAF00767C37 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F5D29535AAF00767C37 /* Actions.sks */; };
+		64BC9F6029535AAF00767C37 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F5F29535AAF00767C37 /* GameScene.swift */; };
+		64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F6129535AAF00767C37 /* ViewController.swift */; };
+		64BC9F6429535AB500767C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F6329535AB500767C37 /* Assets.xcassets */; };
+		64BC9F6729535AB500767C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F6529535AB500767C37 /* Main.storyboard */; };
+		64BC9F7229535AB600767C37 /* InvadingTatersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BC9F6E29535AB600767C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BC9F4E29535AAE00767C37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BC9F5529535AAF00767C37;
+			remoteInfo = InvadingTaters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64BC9F5629535AAF00767C37 /* InvadingTaters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvadingTaters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BC9F5929535AAF00767C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64BC9F5B29535AAF00767C37 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		64BC9F5D29535AAF00767C37 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		64BC9F5F29535AAF00767C37 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		64BC9F6129535AAF00767C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64BC9F6329535AB500767C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BC9F6629535AB500767C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InvadingTaters.entitlements; sourceTree = "<group>"; };
+		64BC9F6D29535AB600767C37 /* InvadingTatersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvadingTatersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadingTatersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BC9F5329535AAF00767C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC9F6A29535AB600767C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BC9F4D29535AAE00767C37 = {
+			isa = PBXGroup;
+			children = (
+				64BC9F5829535AAF00767C37 /* InvadingTaters */,
+				64BC9F7029535AB600767C37 /* InvadingTatersTests */,
+				64BC9F5729535AAF00767C37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BC9F5729535AAF00767C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BC9F5629535AAF00767C37 /* InvadingTaters.app */,
+				64BC9F6D29535AB600767C37 /* InvadingTatersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BC9F5829535AAF00767C37 /* InvadingTaters */ = {
+			isa = PBXGroup;
+			children = (
+				64BC9F5929535AAF00767C37 /* AppDelegate.swift */,
+				64BC9F5B29535AAF00767C37 /* GameScene.sks */,
+				64BC9F5D29535AAF00767C37 /* Actions.sks */,
+				64BC9F5F29535AAF00767C37 /* GameScene.swift */,
+				64BC9F6129535AAF00767C37 /* ViewController.swift */,
+				64BC9F6329535AB500767C37 /* Assets.xcassets */,
+				64BC9F6529535AB500767C37 /* Main.storyboard */,
+				64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */,
+			);
+			path = InvadingTaters;
+			sourceTree = "<group>";
+		};
+		64BC9F7029535AB600767C37 /* InvadingTatersTests */ = {
+			isa = PBXGroup;
+			children = (
+				64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */,
+			);
+			path = InvadingTatersTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BC9F5529535AAF00767C37 /* InvadingTaters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BC9F8129535AB600767C37 /* Build configuration list for PBXNativeTarget "InvadingTaters" */;
+			buildPhases = (
+				64BC9F5229535AAF00767C37 /* Sources */,
+				64BC9F5329535AAF00767C37 /* Frameworks */,
+				64BC9F5429535AAF00767C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvadingTaters;
+			productName = InvadingTaters;
+			productReference = 64BC9F5629535AAF00767C37 /* InvadingTaters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BC9F6C29535AB600767C37 /* InvadingTatersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BC9F8429535AB600767C37 /* Build configuration list for PBXNativeTarget "InvadingTatersTests" */;
+			buildPhases = (
+				64BC9F6929535AB600767C37 /* Sources */,
+				64BC9F6A29535AB600767C37 /* Frameworks */,
+				64BC9F6B29535AB600767C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BC9F6F29535AB600767C37 /* PBXTargetDependency */,
+			);
+			name = InvadingTatersTests;
+			productName = InvadingTatersTests;
+			productReference = 64BC9F6D29535AB600767C37 /* InvadingTatersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BC9F4E29535AAE00767C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					64BC9F5529535AAF00767C37 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					64BC9F6C29535AB600767C37 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 64BC9F5529535AAF00767C37;
+					};
+				};
+			};
+			buildConfigurationList = 64BC9F5129535AAE00767C37 /* Build configuration list for PBXProject "InvadingTaters" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BC9F4D29535AAE00767C37;
+			productRefGroup = 64BC9F5729535AAF00767C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BC9F5529535AAF00767C37 /* InvadingTaters */,
+				64BC9F6C29535AB600767C37 /* InvadingTatersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BC9F5429535AAF00767C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC9F5C29535AAF00767C37 /* GameScene.sks in Resources */,
+				64BC9F6429535AB500767C37 /* Assets.xcassets in Resources */,
+				64BC9F5E29535AAF00767C37 /* Actions.sks in Resources */,
+				64BC9F6729535AB500767C37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC9F6B29535AB600767C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BC9F5229535AAF00767C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */,
+				64BC9F6029535AAF00767C37 /* GameScene.swift in Sources */,
+				64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC9F6929535AB600767C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC9F7229535AB600767C37 /* InvadingTatersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BC9F6F29535AB600767C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BC9F5529535AAF00767C37 /* InvadingTaters */;
+			targetProxy = 64BC9F6E29535AB600767C37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64BC9F6529535AB500767C37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BC9F6629535AB500767C37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BC9F7F29535AB600767C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64BC9F8029535AB600767C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64BC9F8229535AB600767C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InvadingTaters/InvadingTaters.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.InvadingTaters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64BC9F8329535AB600767C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InvadingTaters/InvadingTaters.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.InvadingTaters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64BC9F8529535AB600767C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.InvadingTatersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvadingTaters.app/Contents/MacOS/InvadingTaters";
+			};
+			name = Debug;
+		};
+		64BC9F8629535AB600767C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.InvadingTatersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvadingTaters.app/Contents/MacOS/InvadingTaters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BC9F5129535AAE00767C37 /* Build configuration list for PBXProject "InvadingTaters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC9F7F29535AB600767C37 /* Debug */,
+				64BC9F8029535AB600767C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BC9F8129535AB600767C37 /* Build configuration list for PBXNativeTarget "InvadingTaters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC9F8229535AB600767C37 /* Debug */,
+				64BC9F8329535AB600767C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BC9F8429535AB600767C37 /* Build configuration list for PBXNativeTarget "InvadingTatersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC9F8529535AB600767C37 /* Debug */,
+				64BC9F8629535AB600767C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64BC9F4E29535AAE00767C37 /* Project object */;
+}
