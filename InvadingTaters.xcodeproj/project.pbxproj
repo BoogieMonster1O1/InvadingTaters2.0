@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F5929535AAF00767C37 /* AppDelegate.swift */; };
-		64BC9F5C29535AAF00767C37 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F5B29535AAF00767C37 /* GameScene.sks */; };
 		64BC9F5E29535AAF00767C37 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F5D29535AAF00767C37 /* Actions.sks */; };
-		64BC9F6029535AAF00767C37 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F5F29535AAF00767C37 /* GameScene.swift */; };
 		64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F6129535AAF00767C37 /* ViewController.swift */; };
 		64BC9F6429535AB500767C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F6329535AB500767C37 /* Assets.xcassets */; };
 		64BC9F6729535AB500767C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F6529535AB500767C37 /* Main.storyboard */; };
 		64BC9F7229535AB600767C37 /* InvadingTatersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */; };
+		64E4EA9D29535F5C005A5895 /* TaterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EA9C29535F5B005A5895 /* TaterType.swift */; };
+		64E4EA9F29536BC9005A5895 /* InvadingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EA9E29536BC9005A5895 /* InvadingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,15 +30,15 @@
 /* Begin PBXFileReference section */
 		64BC9F5629535AAF00767C37 /* InvadingTaters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvadingTaters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC9F5929535AAF00767C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64BC9F5B29535AAF00767C37 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		64BC9F5D29535AAF00767C37 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		64BC9F5F29535AAF00767C37 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		64BC9F6129535AAF00767C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64BC9F6329535AB500767C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64BC9F6629535AB500767C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InvadingTaters.entitlements; sourceTree = "<group>"; };
 		64BC9F6D29535AB600767C37 /* InvadingTatersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvadingTatersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadingTatersTests.swift; sourceTree = "<group>"; };
+		64E4EA9C29535F5B005A5895 /* TaterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaterType.swift; sourceTree = "<group>"; };
+		64E4EA9E29536BC9005A5895 /* InvadingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +81,13 @@
 			isa = PBXGroup;
 			children = (
 				64BC9F5929535AAF00767C37 /* AppDelegate.swift */,
-				64BC9F5B29535AAF00767C37 /* GameScene.sks */,
 				64BC9F5D29535AAF00767C37 /* Actions.sks */,
-				64BC9F5F29535AAF00767C37 /* GameScene.swift */,
 				64BC9F6129535AAF00767C37 /* ViewController.swift */,
+				64E4EA9E29536BC9005A5895 /* InvadingScene.swift */,
 				64BC9F6329535AB500767C37 /* Assets.xcassets */,
 				64BC9F6529535AB500767C37 /* Main.storyboard */,
 				64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */,
+				64E4EA9C29535F5B005A5895 /* TaterType.swift */,
 			);
 			path = InvadingTaters;
 			sourceTree = "<group>";
@@ -181,7 +181,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BC9F5C29535AAF00767C37 /* GameScene.sks in Resources */,
 				64BC9F6429535AB500767C37 /* Assets.xcassets in Resources */,
 				64BC9F5E29535AAF00767C37 /* Actions.sks in Resources */,
 				64BC9F6729535AB500767C37 /* Main.storyboard in Resources */,
@@ -202,8 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E4EA9D29535F5C005A5895 /* TaterType.swift in Sources */,
 				64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */,
-				64BC9F6029535AAF00767C37 /* GameScene.swift in Sources */,
+				64E4EA9F29536BC9005A5895 /* InvadingScene.swift in Sources */,
 				64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
