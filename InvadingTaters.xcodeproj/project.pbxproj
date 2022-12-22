@@ -14,7 +14,10 @@
 		64BC9F6729535AB500767C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC9F6529535AB500767C37 /* Main.storyboard */; };
 		64BC9F7229535AB600767C37 /* InvadingTatersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */; };
 		64E4EA9D29535F5C005A5895 /* TaterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EA9C29535F5B005A5895 /* TaterType.swift */; };
-		64E4EA9F29536BC9005A5895 /* InvadingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EA9E29536BC9005A5895 /* InvadingScene.swift */; };
+		64E4EA9F29536BC9005A5895 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EA9E29536BC9005A5895 /* GameScene.swift */; };
+		64E4EAA1295372D0005A5895 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64E4EAA0295372D0005A5895 /* GameOverScene.sks */; };
+		64E4EAA3295376B7005A5895 /* Keycode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EAA2295376B7005A5895 /* Keycode.swift */; };
+		64E4EAA529537766005A5895 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EAA429537766005A5895 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,10 @@
 		64BC9F6D29535AB600767C37 /* InvadingTatersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvadingTatersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC9F7129535AB600767C37 /* InvadingTatersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadingTatersTests.swift; sourceTree = "<group>"; };
 		64E4EA9C29535F5B005A5895 /* TaterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaterType.swift; sourceTree = "<group>"; };
-		64E4EA9E29536BC9005A5895 /* InvadingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadingScene.swift; sourceTree = "<group>"; };
+		64E4EA9E29536BC9005A5895 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		64E4EAA0295372D0005A5895 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		64E4EAA2295376B7005A5895 /* Keycode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycode.swift; sourceTree = "<group>"; };
+		64E4EAA429537766005A5895 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,14 @@
 				64BC9F5929535AAF00767C37 /* AppDelegate.swift */,
 				64BC9F5D29535AAF00767C37 /* Actions.sks */,
 				64BC9F6129535AAF00767C37 /* ViewController.swift */,
-				64E4EA9E29536BC9005A5895 /* InvadingScene.swift */,
+				64E4EA9E29536BC9005A5895 /* GameScene.swift */,
+				64E4EAA0295372D0005A5895 /* GameOverScene.sks */,
+				64E4EAA429537766005A5895 /* GameOverScene.swift */,
 				64BC9F6329535AB500767C37 /* Assets.xcassets */,
 				64BC9F6529535AB500767C37 /* Main.storyboard */,
 				64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */,
 				64E4EA9C29535F5B005A5895 /* TaterType.swift */,
+				64E4EAA2295376B7005A5895 /* Keycode.swift */,
 			);
 			path = InvadingTaters;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E4EAA1295372D0005A5895 /* GameOverScene.sks in Resources */,
 				64BC9F6429535AB500767C37 /* Assets.xcassets in Resources */,
 				64BC9F5E29535AAF00767C37 /* Actions.sks in Resources */,
 				64BC9F6729535AB500767C37 /* Main.storyboard in Resources */,
@@ -202,8 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E4EA9D29535F5C005A5895 /* TaterType.swift in Sources */,
+				64E4EAA3295376B7005A5895 /* Keycode.swift in Sources */,
 				64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */,
-				64E4EA9F29536BC9005A5895 /* InvadingScene.swift in Sources */,
+				64E4EA9F29536BC9005A5895 /* GameScene.swift in Sources */,
+				64E4EAA529537766005A5895 /* GameOverScene.swift in Sources */,
 				64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         if let view = self.skView {
-            let scene = InvadingScene(size: view.bounds.size)
+            let scene = GameScene(size: view.bounds.size)
             scene.scaleMode = .resizeFill
             view.ignoresSiblingOrder = true
             view.showsFPS = true
