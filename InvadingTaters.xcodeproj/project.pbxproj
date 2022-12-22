@@ -18,6 +18,7 @@
 		64E4EAA1295372D0005A5895 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64E4EAA0295372D0005A5895 /* GameOverScene.sks */; };
 		64E4EAA3295376B7005A5895 /* Keycode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EAA2295376B7005A5895 /* Keycode.swift */; };
 		64E4EAA529537766005A5895 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EAA429537766005A5895 /* GameOverScene.swift */; };
+		64E4EAA72954003D005A5895 /* TaterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4EAA62954003D005A5895 /* TaterNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		64E4EAA0295372D0005A5895 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
 		64E4EAA2295376B7005A5895 /* Keycode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycode.swift; sourceTree = "<group>"; };
 		64E4EAA429537766005A5895 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		64E4EAA62954003D005A5895 /* TaterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaterNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				64BC9F6829535AB500767C37 /* InvadingTaters.entitlements */,
 				64E4EA9C29535F5B005A5895 /* TaterType.swift */,
 				64E4EAA2295376B7005A5895 /* Keycode.swift */,
+				64E4EAA62954003D005A5895 /* TaterNode.swift */,
 			);
 			path = InvadingTaters;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				64E4EAA3295376B7005A5895 /* Keycode.swift in Sources */,
 				64BC9F6229535AAF00767C37 /* ViewController.swift in Sources */,
 				64E4EA9F29536BC9005A5895 /* GameScene.swift in Sources */,
+				64E4EAA72954003D005A5895 /* TaterNode.swift in Sources */,
 				64E4EAA529537766005A5895 /* GameOverScene.swift in Sources */,
 				64BC9F5A29535AAF00767C37 /* AppDelegate.swift in Sources */,
 			);
