@@ -14,6 +14,9 @@ class GameScene: SKScene {
     public override init(size: CGSize) {
         super.init(size: size)
     }
+    private var lives: LivesNode = LivesNode()
+    private var scoreLabel: SKLabelNode = SKLabelNode(text: "Score: ")
+    private var score: Int = 0
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -25,6 +28,14 @@ class GameScene: SKScene {
         reInitInvaders()
         self.bottomLine.position = CGPoint(x: 0, y: 48)
         self.addChild(bottomLine)
+
+        self.lives.position = CGPoint(x: 22, y: 22)
+        self.addChild(lives)
+
+        self.scoreLabel.position = CGPoint(x: 10, y: 478)
+        self.scoreLabel.fontSize = 24
+        self.scoreLabel.horizontalAlignmentMode = .left
+        self.addChild(scoreLabel)
     }
 
     func reInitInvaders() {
@@ -44,6 +55,10 @@ class GameScene: SKScene {
             }
             taters.append(row)
         }
+    }
+
+    override func didFinishUpdate() {
+        scoreLabel.text = "Score: \(score)"
     }
 
     override func keyDown(with event: NSEvent) {
