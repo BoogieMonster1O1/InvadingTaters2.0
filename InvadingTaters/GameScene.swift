@@ -10,7 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene {
     public var taters: [[TaterNode]] = []
-    
+    private var bottomLine = SKSpriteNode(color: .white, size: CGSize(width: 1000, height: 4))
     public override init(size: CGSize) {
         super.init(size: size)
     }
@@ -23,6 +23,8 @@ class GameScene: SKScene {
         self.backgroundColor = .black
         NSLog("We have invaded")
         reInitInvaders()
+        self.bottomLine.position = CGPoint(x: 0, y: 48)
+        self.addChild(bottomLine)
     }
 
     func reInitInvaders() {

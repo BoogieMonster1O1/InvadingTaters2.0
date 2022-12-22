@@ -18,7 +18,7 @@ class ViewController: NSViewController {
 
         if let view = self.skView {
             let scene = GameScene(size: view.bounds.size)
-            scene.scaleMode = .aspectFill
+            scene.scaleMode = .aspectFit
             view.ignoresSiblingOrder = true
             view.showsFPS = true
             view.showsNodeCount = true
