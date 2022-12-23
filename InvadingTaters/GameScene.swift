@@ -55,7 +55,7 @@ class GameScene: SKScene {
                 let type = TaterType.byRow(j)
                 let node = TaterNode(type: type)
                 node.position = CGPoint(x: 2 * (16 * i + 12), y: 2 * (17 * j + 128))
-                node.name = "\(i) \(j)"
+                node.name = "Invader"
                 self.addChild(node)
                 row.append(node)
             }
@@ -66,12 +66,15 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         if (directionPressed == .left) {
             if (shipNode.position.x > (24)) {
-                shipNode.position = CGPoint(x: shipNode.position.x - 2, y: shipNode.position.y)
+                shipNode.position = CGPoint(x: shipNode.position.x - 3, y: shipNode.position.y)
             }
         } else if (directionPressed == .right) {
             if (shipNode.position.x < (512 - 88)) {
-                shipNode.position = CGPoint(x: shipNode.position.x + 2, y: shipNode.position.y)
+                shipNode.position = CGPoint(x: shipNode.position.x + 3, y: shipNode.position.y)
             }
+        }
+        self.enumerateChildNodes(withName: "ShipBullet") {
+            $1.pointee = true
         }
     }
 
