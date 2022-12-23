@@ -16,9 +16,9 @@ class GameScene: SKScene {
     }
     private var lives: LivesNode = LivesNode()
     private var scoreLabel: SKLabelNode = SKLabelNode(text: "Score: ")
-    private var shipNode: ShipNode = ShipNode()
+    private var shipNode: SKSpriteNode = SKSpriteNode(imageNamed: "ship")
     private var score: Int = 0
-    private var directionPressed: PressedDirection? = nil
+    private var directionPressed: Direction? = nil
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -103,7 +103,7 @@ class GameScene: SKScene {
     }
 }
 
-enum PressedDirection {
+enum Direction {
     case left
     case right
 }
