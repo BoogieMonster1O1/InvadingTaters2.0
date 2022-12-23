@@ -66,11 +66,11 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         if (directionPressed == .left) {
             if (shipNode.position.x > (24)) {
-                shipNode.position = CGPoint(x: shipNode.position.x - 3, y: shipNode.position.y)
+                shipNode.position = CGPoint(x: shipNode.position.x - 4, y: shipNode.position.y)
             }
         } else if (directionPressed == .right) {
             if (shipNode.position.x < (512 - 88)) {
-                shipNode.position = CGPoint(x: shipNode.position.x + 3, y: shipNode.position.y)
+                shipNode.position = CGPoint(x: shipNode.position.x + 4, y: shipNode.position.y)
             }
         }
         self.enumerateChildNodes(withName: "ShipBullet") {
