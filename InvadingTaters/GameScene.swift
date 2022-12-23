@@ -16,7 +16,9 @@ class GameScene: SKScene {
     }
     private var lives: LivesNode = LivesNode()
     private var scoreLabel: SKLabelNode = SKLabelNode(text: "Score: ")
+    private var shipNode: ShipNode = ShipNode()
     private var score: Int = 0
+    private var directionPressed: PressedDirection? = nil
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -36,6 +38,9 @@ class GameScene: SKScene {
         self.scoreLabel.fontSize = 24
         self.scoreLabel.horizontalAlignmentMode = .left
         self.addChild(scoreLabel)
+        
+        self.shipNode.position = CGPoint(x: 256 - 16, y: 70)
+        self.addChild(shipNode)
     }
 
     func reInitInvaders() {
@@ -56,19 +61,49 @@ class GameScene: SKScene {
             taters.append(row)
         }
     }
+    
+    override func update(_ currentTime: TimeInterval) {
+        if (directionPressed == .left) {
+            if (shipNode.position.x > (16)) {
+                shipNode.position = CGPoint(x: shipNode.position.x - 2, y: shipNode.position.y)
+            }
+        } else if (directionPressed == .right) {
+            if (shipNode.position.x < (512 - 80)) {
+                shipNode.position = CGPoint(x: shipNode.position.x + 2, y: shipNode.position.y)
+            }
+        }
+    }
 
     override func didFinishUpdate() {
         scoreLabel.text = "Score: \(score)"
     }
-
-    override func keyDown(with event: NSEvent) {
-        if event.keyCode == Keycode.returnKey {
-            let reveal = SKTransition.crossFade(withDuration: 0.5)
-            if let newScene = SKScene(fileNamed: "GameOverScene") {
-                self.scene?.view?.presentScene(newScene, transition: reveal)
-            }
-        } else if event.keyCode == Keycode.escape {
-            NSApp.terminate(nil)
+    
+    override func keyUp(with event: NSEvent) {
+        if event.keyCode == Keycode.rightArrow || event.keyCode == Keycode.leftArrow {
+            self.directionPressed = nil
         }
     }
+
+    override func keyDown(with event: NSEvent) {
+        if event.keyCode == Keycode.rightArrow {
+            self.directionPressed = .right
+        } else if event.keyCode == Keycode.leftArrow {
+            self.directionPressed = .left
+        } else {
+            if event.keyCode == Keycode.returnKey {
+                let reveal = SKTransition.crossFade(withDuration: 0.5)
+                if let newScene = SKScene(fileNamed: "GameOverScene") {
+                    self.scene?.view?.presentScene(newScene, transition: reveal)
+                }
+            } else if event.keyCode == Keycode.escape {
+                NSApp.terminate(nil)
+            }
+            self.directionPressed = nil
+        }
+    }
+}
+
+enum PressedDirection {
+    case left
+    case right
 }
