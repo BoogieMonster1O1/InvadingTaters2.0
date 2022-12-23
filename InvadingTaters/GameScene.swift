@@ -39,7 +39,8 @@ class GameScene: SKScene {
         self.scoreLabel.horizontalAlignmentMode = .left
         self.addChild(scoreLabel)
         
-        self.shipNode.position = CGPoint(x: 256 - 16, y: 70)
+        self.shipNode.size = CGSize(width: 24, height: 24)
+        self.shipNode.position = CGPoint(x: 256 - 24, y: 70)
         self.addChild(shipNode)
     }
 
@@ -61,14 +62,14 @@ class GameScene: SKScene {
             taters.append(row)
         }
     }
-    
+
     override func update(_ currentTime: TimeInterval) {
         if (directionPressed == .left) {
-            if (shipNode.position.x > (16)) {
+            if (shipNode.position.x > (24)) {
                 shipNode.position = CGPoint(x: shipNode.position.x - 2, y: shipNode.position.y)
             }
         } else if (directionPressed == .right) {
-            if (shipNode.position.x < (512 - 80)) {
+            if (shipNode.position.x < (512 - 88)) {
                 shipNode.position = CGPoint(x: shipNode.position.x + 2, y: shipNode.position.y)
             }
         }
